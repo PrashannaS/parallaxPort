@@ -20,7 +20,32 @@ body {
   gap: 1rem;
 }
 
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.wrapper {
+  background: #8fc0f0;
+  min-height: 100vh;
+}
+
+/* ==== nav bar===  */
+header {
+  background-color: #264d73;
+  position: sticky;
+}
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+.navigation {
+  list-style: none;
 }
